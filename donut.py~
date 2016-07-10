@@ -1,0 +1,9 @@
+def c1(no):
+    if no<10:
+        print "Number of donuts:",no
+    else:
+        print "Number of donuts: many"
+    return;
+
+n1=input("Enter the number of donuts:")
+c1(n1)

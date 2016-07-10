@@ -1,0 +1,26 @@
+import operator
+
+l=[]
+m=[]
+n=[]
+
+m=input("Enter a digit m:").split(',')
+n=input("Enter a digit n:").split(',')
+def facto(s[]):
+    for a in s:
+       n=len(s)
+       print n
+       f=1
+       while n>=1:
+           f=f*n
+           n=n-1
+           l.append(f)
+    return l
+lm=facto(m)
+ln=facto(n)
+print "Factorial of m:",lm
+print "Factorial of n:",ln
+print "Sum of the factorials:"
+ls=map(operator.add,lm,ln)
+print ls
+
