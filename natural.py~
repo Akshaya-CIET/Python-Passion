@@ -1,0 +1,9 @@
+s=0#to find sum of num
+ss=0#to find sum of squares
+for i in range(0,101):
+	s+=i
+for i in range(0,101):
+	i=i*i #find square of i
+	ss=ss+i#sum up squares of i
+print "Sum of squares:",ss,"Square of sum:",s*s
+print "Difference between sum of squares and square of sum:",ss-s

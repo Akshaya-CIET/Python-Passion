@@ -1,0 +1,12 @@
+a=xrange(1,1000)
+sum=0
+print "Numbers divisible by 3 or 5 below 1000"
+for i in a:
+	#to check divisibility of numbers
+	if i%3==0 or i%5==0:
+		print i
+		sum=sum+i#summing up the numbers
+print "Sum of the numbers:",sum
+
+
+     

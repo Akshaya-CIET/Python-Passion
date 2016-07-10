@@ -1,0 +1,13 @@
+odd=0
+even=1
+total = 0
+while True:
+	#finding the odd numbers
+    odd = odd + even  
+    #finding the even numbers
+    even = odd + even 
+    if even < 4000000: 
+        total += even 
+    else:
+        break
+print total
